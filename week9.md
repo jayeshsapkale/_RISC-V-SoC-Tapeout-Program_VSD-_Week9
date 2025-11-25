@@ -13,7 +13,7 @@ This final documentation consolidates all work done across my repositories:
 - **_RISC-V-SoC-Tapeout-Program_VSD** (base repo)
 
 Each week’s screenshots, logs, and text were referenced directly from these repos.
-all work done in this program is here.
+✔ All work done in this program is consolidated here.
 ---
 
 # 🕒 WEEK-WISE DOCUMENTATION
@@ -22,19 +22,22 @@ all work done in this program is here.
 
 # **📘 Week 1 – RTL Design, Logic Synthesis, and Gate-Level Simulations**
 **Topics completed from my Week1 repo:**
-- Introduction to Verilog RTL Design & Synthesis  
-- Timing Libraries, Hierarchical vs Flat Synthesis & Flop Coding Styles 
-- GLS, Blocking vs Non-Blocking & Simulation-Synthesis Mismatch
-- Combinational & Sequential Optimizations 
-- Optimizations in Synthesis
-- 
+- Basics of Verilog RTL Design & Synthesis  
+- Timing Libraries, Flop Styles, Blocking/Non-Blocking  
+- Simulation–Synthesis Mismatch  
+- Combinational & Sequential Optimization  
+- GLS using Icarus Verilog  
+- Synthesis using Yosys  
+
+
 **Screenshots used:** 
 
- Lab Work with Iverilog & GTKWave
+ ### 🔧 Lab Work: Icarus + GTKWave
 
 <img width="940" height="663" alt="image" src="https://github.com/user-attachments/assets/14674452-4e36-4c78-aeb3-12d3aeaa8ca6" />
 
-Lab Work with Yosys
+### 🔧 Lab Work: Yosys Synthesis  
+
 Hands-on synthesis of a Verilog design.
 
 <img width="940" height="686" alt="image" src="https://github.com/user-attachments/assets/a81d314b-f99d-4b20-9082-b0d043777314" />
@@ -84,7 +87,8 @@ gvim ../lib/sky130_fd_sc_hd__tt_025C_1v80.lib
 
 **Outputs:**  
 - Explain the theory behind SoC design
-- Demonstrate BabySoC functional modelling with simulation waveforms  
+- Demonstrate BabySoC functional modelling with simulation waveforms
+  
 ### Key Concepts
 
 1. **What is a System-on-Chip (SoC)?**  
@@ -147,6 +151,7 @@ waveform :
 ---
 
 # **📙 Week 3 – Post-Synthesis GLS & STA Fundamentals**
+
 - Perform Gate-Level Simulation (GLS) to validate functionality post-synthesis.
 - Introduce Static Timing Analysis (STA) concepts using OpenSTA.
 
@@ -175,6 +180,7 @@ For the observed signals and time window:
 ---
 
 # **📕 Week 4 – CMOS Circuit Design (sky130-style)**
+
 - Study MOSFET I–V characteristics (Id–Vds, Id–Vgs)
 - Extract Threshold Voltage (Vt)
 - Design and simulate a CMOS inverter
@@ -310,6 +316,7 @@ The connection between physical transistor limits and STA timing constraints
 # **📙 Week 6**
 ## Objective:
 To perform hands-on physical design using the OpenLane flow on the pre-configured VDI image, exploring the complete process from synthesis to layout and verification — including floorplanning, placement, routing, DRC, and STA.
+
 ## 🧾 Step 1: Setup and Synthesis
 <img width="940" height="923" alt="image" src="https://github.com/user-attachments/assets/be52f72f-dab4-4ac9-a63b-dbbde1d56e15" />
 <img width="940" height="898" alt="image" src="https://github.com/user-attachments/assets/eec24d0b-6892-412a-ac64-0a774ea9251e" />
